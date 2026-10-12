@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+
+# DuckDB & Data
+*.duckdb
+*.duckdb.wal
+data/sec_corpus/*
+!data/sec_corpus/.gitkeep
+data/nse_corpus/*
+!data/nse_corpus/.gitkeep
+data/chroma_db/
+
+# Environment / Keys
+.env
+*.pem
+
+# Streamlit & Cache
+.streamlit/
+.chroma/
+chroma_db/
+.pytest_cache/
+.vscode/
