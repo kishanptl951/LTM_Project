@@ -1,0 +1,11 @@
+.git
+.venv
+venv
+__pycache__
+*.pyc
+.pytest_cache
+.env
+reports/*
+!reports/.gitkeep
+data/claimguard.duckdb
+data/claimguard.duckdb.wal
